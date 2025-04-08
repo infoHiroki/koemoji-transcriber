@@ -4,6 +4,23 @@
 
 ---
 
+## 動作環境
+
+- **対応OS:** Windows 10 / 11 (64bit)
+- **Python:** 3.9 以上
+- **必要なソフトウェア:**
+  - [FFmpeg](https://ffmpeg.org/)（同梱またはシステムPATHに設定）
+  - [PyTorch](https://pytorch.org/)（CPU版またはCUDA対応版を環境に応じてインストール）
+- **推奨:**
+  - 仮想環境 (venv, conda) の利用
+  - `requirements.txt` に基づく依存関係のインストール
+- **必要なランタイム:**
+  - [Microsoft Visual C++ 2015-2022 再頒布可能パッケージ](https://learn.microsoft.com/ja-jp/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+    - 既にインストール済みのPCも多いが、動作しない場合はインストールしてください
+
+
+---
+
 ## 主な特徴
 
 - **完全オフライン動作**：インターネット接続不要。機密データも安心。
