@@ -1,0 +1,23 @@
+# GUI Framework
+flet==0.27.6
+
+# Transcription Engine
+# Note: FasterWhisper requires PyTorch and CTranslate2.
+# Installation might need specific commands depending on CPU/GPU (CUDA) environment.
+# Refer to FasterWhisper and PyTorch documentation for details.
+# Explicitly add torch - choose CPU or CUDA version as needed.
+# See: https://pytorch.org/get-started/locally/
+torch==2.6.0 # For CPU-only by default with pip install
+# For CUDA, you might need: pip install torch==2.6.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cuXXX (Replace cuXXX with your CUDA version, e.g., cu118, cu121)
+ctranslate2==4.5.0 # Required by FasterWhisper
+faster-whisper==1.1.1
+
+# Image processing (for icons etc.)
+pillow==11.1.0
+
+# Optional: For license key generation/validation using WMI
+# wmi
+# pywin32
+
+# Optional: Python wrapper for ffmpeg (if direct ffmpeg calls are not preferred)
+# ffmpeg-python
