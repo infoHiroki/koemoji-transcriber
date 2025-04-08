@@ -80,8 +80,3 @@ MIT License
 詳細は`LICENSE`ファイル参照。
 
 ---
-
-## 補足
-
-- **旧版のSRT/VTT出力や手動保存機能は廃止済みです。**
-- **Google Drive等での配布リンクは追ってREADMEに追記してください。**
