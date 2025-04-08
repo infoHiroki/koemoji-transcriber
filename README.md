@@ -39,6 +39,10 @@
 
 ## インストール方法
 
+### 配布リンク
+
+[最新版インストーラーのダウンロードはこちら](https://e.pcloud.link/publink/show?code=kZlwxdZQhuRmYUWvTjj6GAPsVIrSJgcDrtV)
+
 ### 配布物
 
 - `release/Koemoji_Setup_1.0.0.exe`
